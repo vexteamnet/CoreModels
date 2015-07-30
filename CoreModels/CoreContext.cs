@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity;
 
-namespace ApiApp.Models
+namespace VexTeamNetwork.Models
 {
     public class CoreContext : DbContext
     {

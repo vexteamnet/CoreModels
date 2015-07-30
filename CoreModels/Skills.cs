@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Dynamic;
 using System.Runtime.Serialization;
 
-namespace ApiApp.Models
+namespace VexTeamNetwork.Models
 {
     public class Skills
     {

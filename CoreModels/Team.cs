@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
 
-namespace ApiApp.Models
+namespace VexTeamNetwork.Models
 {
     public class Team
     {

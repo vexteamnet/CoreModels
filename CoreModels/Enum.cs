@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ApiApp.Models
+namespace VexTeamNetwork.Models
 {
     [Flags]
     public enum Level
