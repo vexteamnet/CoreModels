@@ -5,8 +5,8 @@ namespace VexTeamNetwork.Models
 {
     public class Team
     {
-        public const string NUMREGEX = @"^([1-9]\d{0,3}[A-Z]{0,1}|[A-Z]{1,4}\d{0,1})$";
-        public const int NUMLENGTH = 5;
+        public const string NUMREGEX = @"^([1-9]\d{0,4}[A-Z]{0,1}|[A-Z]{1,4}\d{0,1})$";
+        public const int NUMLENGTH = 6;
 
         [Key, Required, MaxLength(NUMLENGTH), RegularExpression(NUMREGEX)]
         public string Number { get; set; }

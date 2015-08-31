@@ -19,6 +19,8 @@ namespace VexTeamNetwork.Models
 
         public DbSet<Award> Awards { get; set; }
 
+        public DbSet<Season> Seasons { get; set; }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Award>().HasRequired(a => a.Event)
@@ -28,7 +30,7 @@ namespace VexTeamNetwork.Models
             modelBuilder.Entity<Award>()
                 .HasMany(a => a.QualifiesFor)
                 .WithMany();
-            
+
             base.OnModelCreating(modelBuilder);
         }
     }
